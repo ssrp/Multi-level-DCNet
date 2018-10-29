@@ -1,6 +1,6 @@
 # Multi-level Dense Capsule Networks
 
-This repository contains the code for Multi-level DCNets introduced in the following paper 
+This repository contains the code for Multi-level DCNets introduced in the following paper:
 
 [Multi-level Dense Capsule Networks](https://arxiv.org/pdf/1805.04001.pdf) (ACCV 2018) 
 
