@@ -1,5 +1,4 @@
 # Multi-level Dense Capsule Networks
-Multi-level Dense Capsule Networks, in ACCV 2018
 
 This repository contains the code for Multi-level DCNets introduced in the following paper 
 
