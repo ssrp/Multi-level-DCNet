@@ -6,4 +6,4 @@ This repository contains the code for Multi-level DCNets introduced in the follo
 
 [Sai Samarth R Phaye](http://www.saiphaye.com/)\*, [Apoorva Sikka](https://scholar.google.co.in/citations?user=_XL5F5kAAAAJ)\*, [Abhinav Dhall](https://sites.google.com/site/dhallabhinav/) and [Deepti R Bathula](http://www.iitrpr.ac.in/cse/bathula) (\* Authors contributed equally).
 
-*will be published by 30th November 2018*
+*Sorry for the delay - will be published positively before 25th December 2018*
