@@ -28,11 +28,11 @@ If you find Multi-level DCNets useful in your research, please consider citing:
 ## Introduction
 We improve the capsule networks and highlight its potential on various datasets. We introduce two methods that act as the building blocks for the Multi-level DCNets. First is Multi-level CapsNet which aims to learn hierarchical features by creating multiple level of capsules. Another is DCNet, which replaces standard convolution layers in CapsNet with densely connected convolutions. Addition of direct connections between two consecutive layers helps to learn better feature maps, in turn forming better quality primary capsules. The effectiveness of DCNets is demonstrated by state-of-the-art performance (99.75%) on MNIST data with twenty-fold decrease in total training iterations, over conventional CapsNets. Following is the architecture of DCNet:
 
-<img src="figures/dcnet.png" width="600">
+<img src="figures/dcnet.png" width="700">
 
 Multi-level DCNets imports the multi-level capsules and DenseNets in CapsNets to enhance the representational power of the network. The hierarchical structure helps learn intricate relationships between fine-to-coarse level features. A single 3-level DCNet (13.4M parameters) achieves 89.71% accuracy on CIFAR-10, which is an increase of +0.31% accuracy over seven ensemble CapsNet model (101.5M parameters) with significantly less number of parameters. Following is the architecture of a 3-level DCNet: 
 
-<img src="figures/3-leveldcnet.png" width="600">
+<img src="figures/3leveldcnet.png" width="700">
 
 ## Usage
 
@@ -69,10 +69,10 @@ For more settings, the code is well-commented and it's easy to change the parame
 ## Results
 
 We perform various ablation experiments to prove the efficacy of Multi-level DCNets, including MultiMNIST segmentation test and test to check robustness to affine transformations (using Affnist dataset). All the results could be found in the ACCV paper. Following figure depicts separate accuracy curves for different DigitCaps of 3-level DCNet on CIFAR-10:
-<img src="figures/digitcapsAccuracy.png" width="480">
+<img src="figures/digitcapsAccuracy.png" width="400">
 
 It can be seen that Level-3 and Merge-DigitCaps layer play a major role in the final performance. We also explore the relative effect of different levels of DigitCaps on the reconstruction outputs and experiment on the MNIST dataset by subtracting 0.2 from each digit one at a time in the 54D DigitCaps. It is observed that the effect on reconstructions decrease from the first level to the last level of capsules. This could be due to the fact that the first level DigitCaps activates very small area of an image and when perturbations are added to such smaller levels, it leads to an increased overall change in image (and vice versa). Also, it is observed that DigitCaps obtained from the concatenation of PrimaryCaps was most sensitive to this noise.
-<img src="figures/digitcaps_reconstructions.png" width="480">
+<img src="figures/digitcaps_reconstructions.png" width="650">
 
 
 ## Other Implementations
