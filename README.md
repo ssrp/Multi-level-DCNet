@@ -34,6 +34,7 @@ Multi-level DCNets imports the multi-level capsules and DenseNets in CapsNets to
 <p align="center">
 <img src="figures/3leveldcnet.png" width="700">
 </p>
+
 ## Usage
 
 The repository contains codes for traning a DCNet on MNIST dataset (dcnet.py) and a 3-level DCNet on CIFAR-10 dataset (3leveldcnet.py). Following is the procedure:
