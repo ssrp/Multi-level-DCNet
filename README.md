@@ -4,7 +4,7 @@ This repository contains the code for Multi-level DCNets introduced in the follo
 
 [Multi-level Dense Capsule Networks](https://drive.google.com/file/d/1s3tidLkoezWJOGxi8o4L4cLfEkoDy7Ak) (ACCV 2018)
 
-[Sai Samarth R Phaye](ssrp.github.io)\*, [Apoorva Sikka](https://scholar.google.co.in/citations?user=_XL5F5kAAAAJ)\*, [Abhinav Dhall](https://sites.google.com/site/dhallabhinav/) and [Deepti R Bathula](http://www.iitrpr.ac.in/cse/bathula) (\* Authors contributed equally).
+[Sai Samarth R Phaye](https://ssrp.github.io)\*, [Apoorva Sikka](https://scholar.google.co.in/citations?user=_XL5F5kAAAAJ)\*, [Abhinav Dhall](https://sites.google.com/site/dhallabhinav/) and [Deepti R Bathula](http://www.iitrpr.ac.in/cse/bathula) (\* Authors contributed equally).
 
 Please note: The [arXiv link to the paper](https://arxiv.org/pdf/1805.04001.pdf) contains an old version of the paper which was submitted to BMVC 2018. The new (ACCV) paper should be published soon by Springer.
 
