@@ -1,7 +1,9 @@
 """
 Keras implementation of Multi-level Dense Capsule Networks (Sai Samarth R Phaye*, Apoorva Sikka*, Abhinav Dhall, Deepti R. Bathula), ACCV 2018.
 
-Code credits: We have developed Multi-level DCNets' code using the following GitHub repositories:
+This file trains a DCNet on MNIST dataset with the parameters as mentioned in the ACCV paper.
+
+We have developed Multi-level DCNets' code using the following GitHub repositories:
 - Xifeng Guo's CapsNet code (https://github.com/XifengGuo/CapsNet-Keras) 
 - titu1994's DenseNet code (https://github.com/titu1994/DenseNet)
 
