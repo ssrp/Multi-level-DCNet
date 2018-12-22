@@ -54,7 +54,7 @@ cd Multi-level-DCNet
 ```
 
 
-**Step 4. Train the network**  
+**Step 4. Train the network.**  
 
 Training DCNet on MNIST with default settings:
 ```
@@ -65,7 +65,7 @@ Training 3-level DCNet on CIFAR-10 with default settings:
 ```
 python 3leveldcnet.py
 ```
-For more settings, the code is well-commented and it's easy to change the parameters looking at the comments. 
+For more settings, the code is well-commented and it should be easy to change the parameters looking at the comments. 
 
 ## Results
 
