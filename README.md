@@ -81,5 +81,7 @@ If you are writing code for Multi-level DCNets in any other framework, please le
 
 ## Contact Us
 We welcome any discussions, suggestions and questions: 
+
 2014csb1029@iitrpr.ac.in, phaye.samarth@gmail.com (Sai Samarth R Phaye)
+
 apoorva.sikka@iitrpr.ac.in (Apoorva Sikka)
