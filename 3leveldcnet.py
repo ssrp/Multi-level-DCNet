@@ -42,7 +42,7 @@ from keras.preprocessing.image import ImageDataGenerator
 import densenet
 
 
-def CapsNet(input_shape, n_class, routings):
+def MultiLevelDCNet(input_shape, n_class, routings):
     """
     A Multi-level DCNet on CIFAR-10.
 
@@ -127,7 +127,7 @@ def CapsNet(input_shape, n_class, routings):
 
     # Shared Decoder model in training and prediction
     decoder = models.Sequential(name='decoder')
-    decoder.add(layers.Dense(600, activation='relu', input_dim=digitcaps.shape[2]*n_class, name='zero_layer'))
+    decoder.add(layers.Dense(600, activation='relu', input_dim=int(digitcaps.shape[2]*n_class), name='zero_layer'))
     decoder.add(layers.Dense(600, activation='relu', name='one_layer'))
     decoderFinal = models.Sequential(name='decoderFinal')
     # Concatenating two layers
@@ -337,7 +337,7 @@ if __name__ == "__main__":
     (x_train, y_train), (x_test, y_test) = load_dataset()
 
     # define model
-    model, eval_model = CapsNet(input_shape=x_train.shape[1:],
+    model, eval_model = MultiLevelDCNet(input_shape=x_train.shape[1:],
                                                   n_class=len(np.unique(np.argmax(y_train, 1))),
                                                   routings=args.routings)
     model.summary()
