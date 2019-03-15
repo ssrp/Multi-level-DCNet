@@ -40,11 +40,11 @@ Multi-level DCNets imports the multi-level capsules and DenseNets in CapsNets to
 The repository contains codes for traning a DCNet on MNIST dataset (dcnet.py) and a 3-level DCNet on CIFAR-10 dataset (3leveldcnet.py). Following is the procedure:
 
 **Step 1.
-Install [Keras>=2.0.7](https://github.com/fchollet/keras)
+Install [Keras==2.0.7](https://github.com/fchollet/keras)
 with [TensorFlow>=1.2](https://github.com/tensorflow/tensorflow) backend.**
 ```
 pip install tensorflow-gpu
-pip install keras
+pip install keras==2.0.7
 ```
 
 **Step 2. Clone the repository to local.**
